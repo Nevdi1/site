@@ -1,0 +1,101 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+
+/* ОБНУЛЕННЯ СТИЛІВ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+	font-family: "Roboto";
+	background: #f5f5f5;
+	color: rgb(75, 75, 75);
+}
+
+/* ------------------------------ */
+
+.whoweare {
+	margin: 0px 0px 150px 0px;
+}
+.whoweare__container {
+	max-width: 1020px;
+	margin: 0 auto;
+	padding: 100px 87px 0 87px;
+	background-color: white;
+	border: 0.1px solid transparent;
+	background: #fff url("../img/bg.png") 100% 0 no-repeat;
+}
+.whoweare__subtitle {
+font-size: 12px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 2.5px;
+text-transform: uppercase;
+margin: 0 0 37px 0;
+padding: 0 0 0 30px;
+background: url("../img/icon.png") 0 0 no-repeat;
+}
+.whoweare__title {
+color: rgb(2, 19, 60);
+font-size: 36px;
+font-weight: 900;
+line-height: 42px;
+margin: 0 0 36px 0;
+max-width: 583px;
+}
+.whoweare__text {
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.15px;
+margin: 0 0 50px 0;
+}
+.whoweare__image {
+	margin: 0px 0px -120px 0px;
+}
+
+.text{
+	margin: 0 auto 100px;
+	max-width: 700px;
+	padding: 50px;
+	font-weight: 700;
+	background-color: white;
+}
+
+/* зробив Олександр Арсенюк */
